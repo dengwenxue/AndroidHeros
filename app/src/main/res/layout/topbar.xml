@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mark.androidheros.widget.CustomTopBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/left_btn"
+    android:id="@+id/topBar"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+
+    custom:leftBackground="@drawable/left_btn"
+    custom:leftText="Back"
+    custom:leftTextColor="#ffffff"
+
+    custom:rightBackground="@drawable/left_btn"
+    custom:rightText="More"
+    custom:rightTextColor="#ffffff"
+
+    custom:title="自定义标题"
+    custom:titleTextColor="#123412"
+    custom:titleTextSize="12sp">
+
+</com.mark.androidheros.widget.CustomTopBar>
